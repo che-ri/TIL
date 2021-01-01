@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+        @keyframes supersexycoinflip {
+            0%{
+                transform:rotateY(0);}
+            25%{
+                    transform:scale(2)
+                }
+            
+            50%{
+                border-radius: 25%;
+                transform:rotateY(180deg) translateY(100px);
+                border-color: tomato;
+            }
+            75%{
+                transform: scale(5)
+            }
+            100%{transform:rotateY(0)}
+        }
+        img{
+            padding: 65px 0px;
+            border: 10px solid black;
+            border-radius: 50%;
+            animation: supersexycoinflip 5s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://1.bp.blogspot.com/-mVAqnKw_lW8/VL9V6fhewNI/AAAAAAAAAco/-eTiP5HF40I/s1600/3034007-slide-s-3-whats-the-difference-between-a-logo-and-a-symbol.jpg">
+</body>
+</html>
