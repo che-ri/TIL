@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="screen-header">
+        <a href="index.html"><i class="fas fa-arrow-left fa-lg"></i></a>
+        <i class="fas fa-search fa-lg"></i>
+    </header>
+    <main class="main-screen">
+        <div class="play-info">
+            <img
+                src="https://cdn.music-flo.com/image/album/110/258/02/04/402258110_5c9ce99c.jpg?1553787293504/dims/resize/140x140/quality/90">
+            <div class="play-info__text">
+                <h4>어떻게 생각해</h4>
+                <span>치즈</span>
+            </div>
+        </div>
+        <div class="playtime">
+            <div class="playtime__time">
+                <span class="time_current">00:00</span>
+                <span class="time_all">03:56</span>
+            </div>
+            <input type="range" min="0" max="100" title="재생 시간 조절 바" role="slider">
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+    <nav class="nav">
+        <i class="fas fa-redo fa-2x"></i>
+        <i class="fas fa-step-backward fa-2x"></i>
+        <i class="fas fa-play-circle fa-2x"></i>
+        <i class="fas fa-step-forward fa-2x"></i>
+        <i class="fas fa-random fa-2x"></i>
+    </nav>
+</body>
+
+</html>
